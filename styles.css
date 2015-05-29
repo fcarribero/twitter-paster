@@ -1,3 +1,20 @@
-body{
-    padding-top:20px;
+body {
+    padding-top: 20px;
+    background: #F5F8FA;
+}
+
+#view .panel-body > div {
+    white-space: pre;
+}
+
+#create textarea {
+    width: 100%;
+    border: none;
+    min-height: 500px;
+    resize: vertical;
+    padding: 10px 20px;
+}
+
+#create button {
+    border-radius: 0px;
 }

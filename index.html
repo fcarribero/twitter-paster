@@ -2,15 +2,30 @@
 <head>
     <title>Twitter Paster</title>
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js" language="JavaScript"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js" language="JavaScript"></script>
+    <script src="app.js" language="JavaScript"></script>
 </head>
 <body>
 <div class="container">
     <div class="col-md-12">
-
-        <div class="panel panel-default">
-            <div class="panel-heading">Parameters</div>
+        <div class="panel panel-default" id="create">
+            <div class="panel-heading">Texto</div>
+            <div>
+                <textarea autofocus="autofocus"></textarea>
+                <button class="btn btn-primary btn-block">Generar Link</button>
+            </div>
+        </div>
+        <div class="panel panel-default" id="view">
+            <div class="panel-heading">
+                <a href="?" class="btn btn-default pull-right"><i class="fa fa-plus"></i></a>
+            </div>
+            <div class="panel-body view"><div></div></div>
+        </div>
+        <div class="panel panel-primary" id="result">
+            <div class="panel-heading">Link</div>
             <div class="panel-body"></div>
         </div>
     </div>
