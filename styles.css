@@ -18,3 +18,16 @@ body {
 #create button {
     border-radius: 0px;
 }
+
+.footer {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    text-align: right;
+    color:#555;
+    font-size: 20px;
+}
+
+.footer > a{
+    color:inherit;
+}
