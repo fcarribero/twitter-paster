@@ -4,7 +4,8 @@ body {
 }
 
 #view .panel-body > div {
-    white-space: pre;
+    white-space: pre-wrap;
+    word-break: break-word;
 }
 
 #create textarea {
